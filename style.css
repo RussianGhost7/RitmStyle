@@ -3,26 +3,41 @@
 }
 
 body {
+    font-size: calc(0.6vw + 0.6vh);
     margin: 0;
     padding: 0;
     background-color: #162831;
+    box-sizing: border-box;
 }
 
 
+header {
+    margin: 0 auto;
+    width: 90%;
+}
+
 nav {
+    margin-top: 1vh;
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: black;
-}
-
-nav #logo {
-
+    height: 60px;
 }
 
 nav ol {
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    color:white
+    gap: 5em;
+    color:white;
+}
+
+nav ol li {
+    margin-top: 25px;
+}
+
+nav ol li a {
+    color: white;
+    text-decoration: none;
 }
