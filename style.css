@@ -1,0 +1,28 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #162831;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+}
+
+nav #logo {
+
+}
+
+nav ol {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color:white
+}
